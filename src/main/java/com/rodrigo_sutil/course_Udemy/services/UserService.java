@@ -12,7 +12,7 @@ import com.rodrigo_sutil.course_Udemy.repositories.UserRepository;
 @Service
 public class UserService {	
 	
-	@Autowired
+	@Autowired 
 	private UserRepository repository;
 	
 	public List<User> findAll(){
